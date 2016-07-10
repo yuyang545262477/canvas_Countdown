@@ -8,11 +8,15 @@ window.onload = function () {
     context.lineTo(700,100);
     context.lineTo(100,100);
     // 样式
-    context.lineWith = 10;
-    context.strokeStyle = '#058';
     // 最后描边
-    context.stroke();
 
+
+    context.fillStyle = 'rgb(2,100,30)';
+    context.fill();
+
+    context.lineWith = 20;
+    context.strokeStyle = 'red';
+    context.stroke();
 
     
 };
